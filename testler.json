@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "not": "Pazartesi mısır tarlasına 2 saat salma sulama yaptım, tarla 12 dönüm",
+    "beklenen": {"urun": "mısır", "alan_donum": 12, "islem": "sulama", "yontem": "salma", "sure_saat": 2, "belirsiz": false}
+  },
+  {
+    "id": 2,
+    "not": "önceki hafta tarlamdaki buğdayı suladım galiba, çimlenme var.",
+    "beklenen": {"urun": "buğday", "islem": "sulama", "gozlem": "çimlenme", "belirsiz": true}
+  },
+  {
+    "id": 3,
+    "not": "bugün sürülü olan tarlama buğday ektim, sulama yapmadım.",
+    "beklenen": {"urun": "buğday", "islem": "ekim", "yapilmayan": "sulama", "belirsiz": false}
+  },
+  {
+    "id": 4,
+    "not": "yağlık ayçiçeği ektiğim 10 dönüm tarlaya otları öldürmesi için dönümüne 5 lt ilaç attım, otlar ölmedi.",
+    "beklenen": {"urun": "yağlık ayçiçeği", "alan_donum": 10, "islem": "ilaçlama", "doz_miktar": 5, "doz_birim": "lt", "doz_olcu": "donum_basi", "amac": "ot", "gozlem": "ölmedi", "belirsiz": false}
+  },
+  {
+    "id": 5,
+    "not": "Dün 20 dönüm nohuta toplam 40 kg DAP gübresi serptim",
+    "beklenen": {"urun": "nohut", "alan_donum": 20, "islem": "gübreleme", "girdi": "DAP", "doz_miktar": 40, "doz_birim": "kg", "doz_olcu": "toplam", "belirsiz": false}
+  },
+  {
+    "id": 6,
+    "not": "Çarşamba 3,5 dönüm patatese 1,5 saat damla sulama yaptım, gübre atmadım",
+    "beklenen": {"urun": "patates", "alan_donum": 3.5, "islem": "sulama", "yontem": "damla", "sure_saat": 1.5, "yapilmayan": "gübre", "belirsiz": false}
+  },
+  {
+    "id": 7,
+    "not": "tarlaya bir şeyler ektik, yer yer sararmış",
+    "beklenen": {"urun": null, "alan_donum": null, "gozlem": "sarar"}
+  },
+  {
+    "id": 8,
+    "not": "Dün 8 dönüm arpaya hem azot gübresi attım hem de ilaçladım",
+    "etiket": "bilinen_zayif_nokta",
+    "beklenen": {"urun": "arpa", "alan_donum": 8}
+  }
+]
